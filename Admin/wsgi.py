@@ -1,0 +1,23 @@
+"""
+WSGI config for Admin project.
+
+It exposes the WSGI callable as a module-level variable named ``application``.
+
+For more information on this file, see
+https://docs.djangoproject.com/en/3.2/howto/deployment/wsgi/
+"""
+
+import os
+
+from django.core.wsgi import get_wsgi_application
+
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Admin.settings')
+
+application = get_wsgi_application()
+
+
+
+# django with API
+
+# in this project we learned some basic concepts like how to use API with JSON and viewsets, api basic , serilaizers, authentication , status , routre,
+# modelviews, genericviews, permission, token authentications, csrf_exempt, mixins, sessionauthentication, baseauthentication. 
